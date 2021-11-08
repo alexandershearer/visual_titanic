@@ -1,0 +1,67 @@
+body {
+    background-color: rgb(26, 26, 26);
+    color: white;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .container {
+      display: flex;
+      justify-content: center;
+      padding-bottom: 100px;
+  }
+
+  #titanic {
+      padding: 10px;
+  }
+
+  
+  #titanic, #sort-buttons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  #sort-buttons {
+    margin: 3rem;
+  }
+
+  #sort-buttons > button {
+      margin: 4px;
+      padding: 10px;
+  }
+  
+  #embarked-percentage {
+    margin-right: 3rem;
+  }
+  
+  #titanic-embarked {
+    display: flex;
+    align-items: flex-end;
+    border: 1px solid;
+    width: 200px;
+    height: 300px;
+    margin-left: 5px;
+  }
+
+  #legend {
+      border: 2px solid white;
+      padding: 15px;
+      height: 500px;
+      margin-top: 15px;
+  }
+
+  #legend > h2 {
+      text-decoration: underline;
+  }
+  
+  #legend li {
+    font-size: 21px;
+  }
+  
+  #embarked-legend {
+    display: flex;
+    justify-content: center;
+  }

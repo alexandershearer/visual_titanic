@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Titanic View</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+  <h1>Visualize Titanic Data</h1>
+
+  <div id="sort-buttons">
+    <button class="sort-by-survived">Sort by Survived</button>
+    <button class="sort-by-age">Sort by Age</button>
+    <button class="sort-by-sex">Sort by Sex</button>
+    <button class="sort-by-fare">Sort by Fare</button>
+    <button class="sort-by-embarked">Sort by Embarked</button>
+  </div>
+
+  <div class="container">
+
+    <div id="legend">
+      <h2>Legend</h2>
+      <h3>Embarked Location (Color)</h3>
+      <ul id="embark">
+        <li style="color: tomato">S</li>
+        <li style="color: cornflowerblue">C</li>
+        <li style="color: gold">Q</li>
+        <li>Unknown Location</li>
+      </ul>
+      <h3>Sex (Shape)</h3>
+      <ul id="sex">
+        <li>Female (circle)</li>
+        <li style="list-style-type: square">Male (sqaure)</li>
+      </ul>
+      <h3>Age (Size)</h3>
+      <ul id="age">
+        <li>Adult</li>
+        <li style="font-size: 15px;">Child (Younger than 18)</li>
+      </ul>
+    </div>
+
+    <div id="titanic"></div>
+
+    <div id="passenger-details"></div>
+
+
+    <div id="embarked-legend">
+      <div id="embarked-percentage">
+        <h2>Embarked Percentage</h2>
+        <div id="titanic-embarked"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js" type="module"></script>
+</body>
+
+</html>
